@@ -6,9 +6,9 @@ function q1(n)
     lblTestAll = loadMNISTLabels ('t10k-labels.idx1-ubyte');
 
     figure;
-    img = imgTestAll (:,n);
+    img = imgTrainAll (:,n);
     img2D = reshape(img, 28,28);
-    strLabelImage = num2str (lblTestAll(n));
+    strLabelImage = num2str (lblTrainAll(n));
     imshow (img2D);
     title(strLabelImage);
 end

@@ -1,4 +1,4 @@
-function q4(n)
+function q4()
     %Load du lieu
     imgTrainAll = loadMNISTImages ('train-images.idx3-ubyte');
     lblTrainAll = loadMNISTLabels ('train-labels.idx1-ubyte');
